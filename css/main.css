@@ -7,25 +7,22 @@ p, a {
   font-size: 17px;
   font-family: Tahoma;
   color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dbdbdb;
 }
 
 .navBar{
-  background-color: #009cde;
+  background-color: #557A95;
   overflow: hidden;
   width:100%;
 }
 
-/*Floats each item to the left with padding of 14 & 16 px.
-Removes the underline with text decoration = none.*/
 .navBar a{
   float: left;
   padding: 14px 16px;
-  text-decoration: none;
-}
-
-/*Background color change during hover state*/
-.navBar a:hover{
-  color: #dbdbdb;
 }
 
 .navBar ul {
@@ -47,12 +44,13 @@ Removes the underline with text decoration = none.*/
   width: 15%;
   height: 100%;
   float: left;
-  background-color: #E8E8E9;
-  border-radius: 5px;
+  background-color: #5D5C61;
 }
 
 .side-nav {
   list-style: none;
+  margin:0;
+  padding:0;
 }
 
 .side-nav li {
@@ -61,12 +59,18 @@ Removes the underline with text decoration = none.*/
 
 .side-nav li a{
   color: black;
+  text-align:center;
+  width:100%;
+}
+
+.side-nav li a p:hover {
+  color: #dbdbdb;
 }
 
 .content {
   float:left;
   height: 98%;
-  background: red;
+  background-color:#7395AE;
   border-radius:5px;
   width:83%;
   margin:1%;

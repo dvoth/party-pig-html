@@ -69,11 +69,9 @@ a:hover {
 
 .content {
   float:left;
-  height: 98%;
+  height: 100%;
   background-color:#7395AE;
-  border-radius:5px;
-  width:83%;
-  margin:1%;
+  width:85%;
 }
 
 .container {

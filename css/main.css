@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+p, a {
+  font-size: 17px;
+  font-family: Tahoma;
+  color: white;
+}
+
+.navBar{
+  background-color: #009cde;
+  overflow: hidden;
+  width:100%;
+}
+
+/*Floats each item to the left with padding of 14 & 16 px.
+Removes the underline with text decoration = none.*/
+.navBar a{
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Background color change during hover state*/
+.navBar a:hover{
+  color: #dbdbdb;
+}
+
+.navBar ul {
+  list-style:none;
+  width: 100%;
+}
+
+.navBar ul li {
+  display: inline-block;
+  width: 18%;
+}
+
+.navBarItem {
+  width:100%;
+  text-align: center;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100%;
+  float: left;
+  background-color: #E8E8E9;
+  border-radius: 5px;
+}
+
+.side-nav {
+  list-style: none;
+}
+
+.side-nav li {
+  padding:10px;
+}
+
+.side-nav li a{
+  color: black;
+}
+
+.content {
+  float:left;
+  height: 98%;
+  background: red;
+  border-radius:5px;
+  width:83%;
+  margin:1%;
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+  margin: auto;
+}

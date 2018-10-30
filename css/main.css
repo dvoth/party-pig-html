@@ -84,5 +84,6 @@ a:hover {
   height: 100%;
   margin: auto;
   display:inline-table;
+  overflow-y: scroll;
 }
 

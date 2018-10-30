@@ -39,21 +39,6 @@
 	color:black;
 }
 
-button {
-	height: 54px;
-    line-height: 54px;
-    font-size: 15px;
-    padding: 0 28px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #7395AE;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    margin-left:25%;
-    margin-top:25%;
-}
-
 .calendar-container {
   display:inline-block;
   width:35%;
@@ -244,5 +229,25 @@ td {
 .value {
     width: 90%;
     padding:10px;
+}
+
+
+.attend-container {
+    margin-left:40%;
+    margin-top:5%;
+}
+
+.attend {
+    height: 108px;
+    width:250px;
+    line-height: 54px;
+    font-size: 24px;
+    padding: 0 28px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7395AE;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
 }
 

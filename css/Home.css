@@ -4,7 +4,7 @@
 /* Reset defaults */
 html, body {
     padding: 0;
-    margin: 0;  
+    margin: 0;
     height: 100%; /* This has to be set */
 }
 
@@ -59,17 +59,17 @@ a:hover {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
 ::-webkit-scrollbar {
     width: 14px;
@@ -104,7 +104,7 @@ a:hover {
     flex-basis: 90%;
 }
 .item-header, .item-location, .item-time{
-    color: black !important;
+    color: black;
 }
 .item-header{
     font-weight: 200;
@@ -212,7 +212,7 @@ a:hover {
     border: solid red;
     font-size: 40px;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 /* Do not set a size on this(.event) -- the scroll wont work then */

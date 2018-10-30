@@ -1,0 +1,55 @@
+
+
+.plans-container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.plans{
+    flex-basis: 33%;
+    padding: 20px;
+    overflow-y: scroll;
+    direction: rtl;
+}
+
+.plans-header{
+    font-size: 27px;
+    text-align: center;
+}
+.plan{
+    position: relative;
+    box-shadow: gray 1px 1px 1px 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    direction: ltr;
+}
+.center-link{
+    text-align: center;
+    flex-basis: 100%;
+    position: relative;
+}
+.plan-link{
+    color: black;
+    margin: auto;
+}
+.plan-link:hover{
+    cursor: pointer;
+    color: black;
+}
+.cancel{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgb(226, 77, 77);
+    transition: .2s;
+}
+.cancel:hover{
+    font-size: 20px;
+    color: red;
+}
+
+

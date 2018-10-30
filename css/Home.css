@@ -82,7 +82,6 @@ a:hover {
 .content-container{
     display: flex;
     flex-direction: row;
-    border: solid brown;
     flex-grow: 1; /* Will fill rest of screen(body) */
 }
 
@@ -121,7 +120,8 @@ a:hover {
     top: 0;
     flex: 0 0 auto; /* So search stays same size */
 }
-.side-bar-search input{
+
+.side-bar-search .event-search{
     width: 100%;
     font-size: 25px;
     padding: 4px;
@@ -131,6 +131,9 @@ a:hover {
 .side-bar-search a{
     float: right;
 }
+.side-bar-search a:hover{
+    cursor: pointer;
+}
 .side-bar-search p{
     padding: 0;
     margin: 3px;
@@ -139,7 +142,26 @@ a:hover {
 }
 .side-bar-search img{
     max-width: 14px;
+}
+.rotate-down{
     transform: rotate(180deg);
+}
+.hidden{
+    display: none;
+}
+.filter{
+    font-size: 14px;
+}
+.filter-distance{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.input-number{
+    width: 50%;
+}
+.filter-sbs{
+   width: 50%;
 }
 
 

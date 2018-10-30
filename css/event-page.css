@@ -15,7 +15,7 @@
 	border-radius: 5px;
     float: left;
     width: 90%;
-    background-color: #557A95;
+    background-color: white;
     margin:10px;
 }
 
@@ -36,7 +36,7 @@
 .card h3 {
 	float:left;
 	margin-top:10px;
-	color:white;
+	color:black;
 }
 
 button {
@@ -56,11 +56,13 @@ button {
 
 .calendar-container {
   display:inline-block;
-  width:100%;
+  width:35%;
+  float:right;
+  height:100%;
 }
 
 .calendar {
-    width:35%;
+    width:100%;
     float:right;
     border-radius:5px;
 }
@@ -68,8 +70,8 @@ button {
 /******** CHAT BOX ********/
 .chat-box
 {
-    width: 35%;
-    margin-left:65%;
+    width: 100%;
+    float:right;
 }
 
 .header
@@ -195,7 +197,6 @@ button {
 
 .input-box
 {
-    background-color: white;
     height: 30%;
     padding: 0px;
 }
@@ -203,7 +204,7 @@ button {
 .input-box textarea
 {
     padding: 0px;
-    width: 278px;
+    width: 100%;
     height: 100%;
     display: inline-block;
     outline: 0px;
@@ -213,7 +214,35 @@ button {
     border-color: black;
     border-style: solid;
     font-size: 12px;
-    padding: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
     border-top-width: 0px;
+}
+
+.info-container {
+    background-color:whitesmoke;
+    margin-right:36%;
+    border-radius:10px;
+    border-width: 5px;
+    border-color:black;
+}
+
+table {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+td {
+    vertical-align: top;
+}
+
+.key {
+    width: 20%;
+    padding:10px;
+}
+
+.value {
+    width: 90%;
+    padding:10px;
 }
 

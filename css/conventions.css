@@ -9,3 +9,32 @@
 	background-color:whitesmoke;
 	color:darkgrey;
 }
+
+.image-container {
+	flex-basis:100%;
+}
+
+.floorplan-img {
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
+	display:block;
+}
+
+.map-img {
+	margin: 0 auto;
+	max-height:100px;
+	max-width:100px;
+}
+
+.bar {
+  max-width: 100px;
+  display: block;
+  height: 20px;
+  background-color: #000;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: white;
+  font-size: 12px;
+  margin-top:-5px;
+}

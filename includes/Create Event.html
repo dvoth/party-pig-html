@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/event-page.css">
 </head>
+
+
 <body id='body'>
     <div class="navBar" id="mainNavBar">
         <ul>
@@ -25,10 +27,11 @@
                 <input class='event-search' , type='text' , placeholder='Find an event'>
                 <a href="../includes/HomeWithFilters.html" class='filter-drop'><p>Filters <img class='rotate-down' src="../images/up-chev.jpg"></p></a>
             </div>
+
             <div class='side-bar-items'>
 
                 <a class='item-link' , href="../includes/Home.html">
-                    <div id='top-item' class='side-bar-item'>
+                    <div id='top-item' class='side-bar-item item-active'>
                         <div class='item-content'>
                             <h2 class='item-header'>Joe's Party</h2>
                             <p class='item-location'>2 Miles</p>
@@ -41,7 +44,7 @@
                 </a>
 
                 <a class='item-link' , href="../includes/Home - Conventions.html">
-                    <div class='side-bar-item item-active'>
+                    <div class='side-bar-item'>
                         <div class='item-content'>
                             <h2 class='item-header'>Docker talk</h2>
                             <p class='item-location'>5 Miles</p>
@@ -135,59 +138,73 @@
                 <img style="width:100%" src="../img/gmaps.jpg" />
             </div>
             <div class="calendar-container">
-                <img class="calendar" src="../img/calendar.png" />
-                <div class="clearfix"></div>
-                <div class="chat-box">
-                    <div class="header">
-                        Highlighted Events
-                    </div>
-
-                    <div id="messages" class="messages">
-                        <ul>
-                            <li>
-                            </li>
-                            <li>
-                            </li>
-                            <li>
-                            </li>
-                        </ul>
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="input-box">
-                        <textarea placeholder="Enter message"></textarea>
-                    </div>
-                </div>
+                <table class="borderless">
+                    <tr>
+                        <td class="key">Music</td>
+                        <td class="value">
+                            <input type="radio" id="music" />Yes</input><br>
+                            <input type="radio" id="music" />No</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="key">Type of Event</td>
+                        <td class="value">
+                            <input type="radio" id="type" />Party</input><br>
+                            <input type="radio" id="type" />Club</input><br>
+                            <input type="radio" id="type" />Convention</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="key">Details</td>
+                        <td class="value">
+                            <textarea></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="key">Time</td>
+                        <td class="value">
+                            <input type></input>
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="info-container">
                 <table class="borderless">
                     <tr class="key-row">
                         <td class="key">Location</td>
-                        <td class="value">1 Main St. Saint Louis, Mo</td>
+                        <td class="value"><input type="text" /></input></td>
                     </tr>
                     <tr>
                         <td class="key">Food and Drink Provided</td>
-                        <td class="value">No</td>
+                        <td class="value">
+                            <input type="radio" id="food" />Yes</input><br>
+                            <input type="radio" id="food" />No</input>
+                        </td>
                     </tr>
                     <tr>
                         <td class="key">What to Bring</td>
-                        <td class="value">Hammer, Chisel and Passion to learn!</td>
+                        <td class="value"><input type="text" /></input></td>
                     </tr>
                     <tr>
                         <td class="key">Details</td>
                         <td class="value">
-                            We are going to learn how to use a lathe! First off, lathes are very dangerous so we will be going over safety at the beginning. However once that is over we will be getting into the fun part of building a bat with a lathe!.
-
-                            I hope you all are ready to learn and put it to use!
+                            <textarea></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="key">Event Time</td>
+                        <td class="value">
+                            <input type></input>
                         </td>
                     </tr>
                 </table>
-                <div class="attend-container">
-                    <a href="Home - Club Attending.html"><button class="attend">Attend</button></a>
-                </div>
-            </div>
-        </div>
 
+            </div>
+            <div class="attend-container">
+                <a href="Home - Attending.html"><button class="attend">Create Event</button></a>
+            </div>
+
+        </div>
     </div>
 
 </body>

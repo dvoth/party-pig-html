@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
-    <link rel="stylesheet" href="../css/Home.css">
+    <title>Homepage</title>
+      <link rel="stylesheet" href="../css/Home.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/event-page.css">
 </head>
+
+
 <body id='body'>
-	<div class="navBar" id="mainNavBar">
-        <ul>
-            <li><a class="navBarItem" href="Home.html">Parties</a></li>
-            <li><a class="navBarItem" href="Home - Conventions.html">Conventions</a></li>
-            <li><a class="navBarItem" href="Home - Club.html">Clubs</a></li>
-            <li><a class="navBarItem" href="Your Plans.html">Plans</a></li>
-            <li><a class="navBarItem" href="Create Event.html">Create Event</a></li>
+    <div class="navBar" id="mainNavBar">
+      <ul>
+          <li><a class="navBarItem" href="#home">Parties</a></li>
+          <li><a class="navBarItem" href="Home - Conventions.html">Conventions</a></li>
+          <li><a class="navBarItem" href="Home - Club.html">Clubs</a></li>
+          <li><a class="navBarItem" href="Your Plans.html">Plans</a></li>
+          <li><a class="navBarItem" href="#contact">Create Event</a></li>
         </ul>
-	</div>
+    </div>
 
     <div class='content-container'>
 
@@ -25,10 +27,11 @@
                 <input class='event-search', type='text', placeholder='Find an event'>
                 <a href="../includes/HomeWithFilters.html" class='filter-drop'><p>Filters <img class='rotate-down' src="../images/up-chev.jpg"></p></a>
             </div>
+
             <div class='side-bar-items'>
 
                 <a class='item-link', href="../includes/Home.html">
-                    <div id='top-item' class='side-bar-item'>
+                    <div id='top-item' class='side-bar-item item-active'>
                         <div class='item-content'>
                             <h2 class='item-header'>Joe's Party</h2>
                             <p class='item-location'>2 Miles</p>
@@ -41,7 +44,7 @@
                 </a>
 
                 <a class='item-link', href="../includes/Home - Conventions.html">
-                    <div class='side-bar-item item-active'>
+                    <div class='side-bar-item'>
                         <div class='item-content'>
                             <h2 class='item-header'>Docker talk</h2>
                             <p class='item-location'>5 Miles</p>
@@ -140,44 +143,51 @@
                 <div class="clearfix"></div>
                 <div class="chat-box">
                     <div class="header">
-                        Highlighted Events
+                        Joe's Party
                     </div>
 
                     <div id="messages" class="messages">
-                        <table>
-                            <tr>
-                                <td class="key">12:00pm</td>
-                                <td class="value">Introduction</td>
-                                <td>Room 212</td>
-                            </tr>
-                            <tr>
-                                <td class="key">2:00pm</td>
-                                <td class="value">Guest Speaker</td>
-                                <td>Room 213</td>
-                            </tr>
-                            <tr>
-                                <td class="key">5:00pm</td>
-                                <td class="value">Commencement</td>
-                                <td>Room 214</td>
-                            </tr>
-                        </table>
+                        <ul>
+                            <li>
+                                <span class="left">Do you have guys have a ride home?</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <span class="right">Yeah it's an ambulance</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <span class="left">Nicee</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <span class="right">How many people are coming?</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <span class="left">Dude it's gonna be like 100 people</span>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
                         <div class="clear"></div>
                     </div>
 
-
-                    <a href="event-list.html" ><button class="event-button">View Full List</button></a>
+                    <div class="input-box">
+                        <textarea placeholder="Enter message"></textarea>
+                        <a href="Home - Chat Reponse.html"><button class="send">Send</button></a>
+                    </div>
                 </div>
             </div>
             <div class="info-container">
-                <h2>Docker Talk</h2>
+                <h2>Joe's Party</h2>
                 <table class="borderless">
                     <tr class="key-row">
                         <td class="key">Date & Time</td>
-                        <td class="value">01/24/2018, 12:00pm - 6:00pm</td>
+                        <td class="value">01/23/2018, 12:00pm - 5:00pm</td>
                     </tr>
                     <tr class="key-row">
                         <td class="key">Location</td>
-                        <td class="value">123 Test St. St. Louis, MO</td>
+                        <td class="value">123 Test St. Edwardsville, IL</td>
                     </tr>
                     <tr>
                         <td class="key">Food and Drink Provided</td>
@@ -185,23 +195,20 @@
                     </tr>
                     <tr>
                         <td class="key">What to Bring</td>
-                        <td class="value">Laptop with Internet Connection</td>
+                        <td class="value">A good attitude</td>
                     </tr>
                     <tr>
                         <td class="key">Details</td>
                         <td class="value">
-                            Whether a container can talk to the world is governed by two factors. The first factor is whether the host machine is forwarding its IP packets. The second is whether the host’s iptables allow this particular connection.
-
-                            IP packet forwarding is governed by the ip_forward system parameter. Packets can only pass between containers if this parameter is 1. Usually you will simply leave the Docker server at its default setting --ip-forward=true and Docker will go set ip_forward to 1 for you when the server starts up.
+                            What's up guys! You already know who it is. We are gonna be going hard this weekend, so bring your A-game. Jimmy is bringing his 8-track so we can take turns listening to the hottest jams of our youth together, hope everyone is up for it. Also, we are providing apple juice, fruit punch, and Cool Ranch Doritos. Hope you see you guys here this weekend!
                         </td>
                     </tr>
                 </table>
                 <div class="attend-container">
-                    <a href="floorplan.html" ><button class="event-button">Event Map</button></a>
+                    <a href="Home - Attending.html" ><button class="attend">Attend</button></a>
                 </div>
             </div>
         </div>
-
     </div>
 
 </body>

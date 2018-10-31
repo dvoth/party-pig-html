@@ -41,7 +41,7 @@ a:hover {
 
 .navBar ul li {
   display: inline-block;
-  width: 18%;
+  width: 16%;
 }
 
 .navBarItem {
@@ -89,5 +89,9 @@ a:hover {
   margin: auto;
   display:inline-table;
   overflow-y: scroll;
+}
+
+.home-glyph {
+  width:50px;
 }
 

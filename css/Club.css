@@ -3,7 +3,11 @@
     text-align:center;
 }
 
+.home-glyph {
+  width:50px;
+}
 .error{
     color: red;
-    font-size:25px;
+    font-size: 24pt;
 }
+

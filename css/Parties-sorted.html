@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+      <link rel="stylesheet" href="../css/Home.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/event-page.css">
+</head>
+
+
+<body id='body'>
+	<div class="navBar" id="mainNavBar">
+        <ul>
+            <li id='home-glyph-li'><a class="navBarItem" href="Home.html"><img class='home-glyph' src='../images/home-solid.png'></a></li>
+            <li><a class="navBarItem" href="Parties-sorted.html">Parties</a></li>
+            <li><a class="navBarItem" href="Conventions-sorted.html">Conventions</a></li>
+            <li><a class="navBarItem" href="Club-sorted.html">Clubs</a></li>
+            <li><a class="navBarItem" href="Your Plans.html">Plans</a></li>
+            <li><a class="navBarItem" href="Create Event.html">Create Event</a></li>
+        </ul>
+    </div>
+
+    <div class='content-container'>
+
+        <div class='side-bar'>
+
+            <div class='side-bar-search'>
+                <input class='event-search', type='text', placeholder='Find an event'>
+                <a href="../includes/HomeWithFilters.html" class='filter-drop'><p>Filters <img class='rotate-down' src="../images/up-chev.jpg"></p></a>
+            </div>
+
+            <div class='side-bar-items'>
+
+                <a class='item-link', href="../includes/Home.html">
+                    <div id='top-item' class='side-bar-item item-active'>
+                        <div class='item-content'>
+                                <h2 class='item-header'>Joe's Party</h2>
+                                <p class='item-location'>2 Miles</p>
+                                <p class='item-time'>Today @ 7pm</p>
+                        </div>
+                        <div class='item-flag-container'>
+                            <div class='event-flag party-flag'></div>
+                        </div>
+                    </div>
+                </a>
+
+                
+                <a class='item-link', href="../includes/Home.html">
+                    <div class='side-bar-item'>
+                        <div class='item-content'>
+                                <h2 class='item-header'>Ashley's 21st</h2>
+                                <p class='item-location'>3 Miles</p>
+                                <p class='item-time'>Saturday @ 9pm</p>
+                        </div>
+                        <div class='item-flag-container'>
+                            <div class='event-flag party-flag'></div>
+                        </div>
+                    </div>
+                </a>
+
+                <a class='item-link', href="../includes/Home.html">
+                    <div class='side-bar-item'>
+                        <div class='item-content'>
+                            <h2 class='item-header'>Costume Party</h2>
+                            <p class='item-location'>10 Miles</p>
+                            <p class='item-time'>Saturday @ 8pm</p>
+                        </div>
+                        <div class='item-flag-container'>
+                            <div class='event-flag party-flag'></div>
+                        </div>
+                    </div>
+                </a>
+                  
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="header-img">
+                <img style="width:100%" src="../img/gmaps.jpg" />
+            </div>
+            <div class="calendar-container">
+                <img class="calendar" src="../img/calendar.png" />
+                <div class="clearfix"></div>
+                <div class="chat-box">
+                    <div class="header">
+                        Joe's Party
+                    </div>
+
+                    <div id="messages" class="messages">
+                        <ul>
+                            <li>
+                                <span class="left">Do you have guys have a ride home?</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <span class="right">Yeah it's an ambulance</span>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <span class="left">Nicee</span>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="input-box">
+                        <textarea placeholder="Enter message"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="info-container">
+                <table class="borderless">
+                    <tr class="key-row">
+                        <td class="key">Location</td>
+                        <td class="value">123 Test St. Edwardsville, IL</td>
+                    </tr>
+                    <tr>
+                        <td class="key">Food and Drink Provided</td>
+                        <td class="value">Yes</td>
+                    </tr>
+                    <tr>
+                        <td class="key">What to Bring</td>
+                        <td class="value">A good attitude</td>
+                    </tr>
+                    <tr>
+                        <td class="key">Details</td>
+                        <td class="value">
+                            What's up guys! You already know who it is. We are gonna be going hard this weekend, so bring your A-game. Jimmy is bringing his 8-track so we can take turns listening to the hottest jams of our youth together, hope everyone is up for it. Also, we are providing apple juice, fruit punch, and Cool Ranch Doritos. Hope you see you guys here this weekend!
+                        </td>
+                    </tr>
+                </table>
+                <div class="attend-container">
+                    <a href="Home - Attending.html" ><button class="attend">Attend</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

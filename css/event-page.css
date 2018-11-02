@@ -257,6 +257,20 @@ td {
     border-radius: 5px;
 }
 
+.attend-conflict {
+    height: 108px;
+    width: 200px;
+    line-height: 54px;
+    font-size: 24px;
+    padding: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
 .event-button {
     height: 54px;
     width:250px;
